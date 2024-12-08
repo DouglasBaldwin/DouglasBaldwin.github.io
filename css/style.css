@@ -38,16 +38,14 @@ a img {
 	border: none;
 }
 
-a:link {
-	color:#069;
-	text-decoration: underline; 
+a {
+  color: #007bff;
+  text-decoration: none;
 }
-a:visited {
-	color: #c33;
-	text-decoration: underline;
-}
-a:hover, a:active, a:focus { 
-	text-decoration: none;
+
+a:hover, a:focus {
+  color: #0056b3;
+  text-decoration: underline;
 }
 
 table

@@ -2,19 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
-body
-{
-	background-color: #fff;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	max-width: 55em;
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 5%;
-	padding-left: 5%;
-	text-align: justify;
-	font-family:  Candara, Gill Sans MT, Calibri, Optima, sans-serif;
-	line-height: 1.2;
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 p
@@ -191,19 +188,14 @@ a:hover, a:active, a:focus {
   }
 }
 
-@media screen and (min-width: 40.5em) {
-	.leftColumn {
-		float:left;
-		width:45%;
-		text-align:left;
-    margin-right: 2em;
-	}
-
-	.rightColumn {
-		float:right;
-		width:45%;
-		text-align:left;
-	}
+/* Enhanced responsiveness */
+@media (max-width: 768px) {
+  .leftColumn, .rightColumn {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 
